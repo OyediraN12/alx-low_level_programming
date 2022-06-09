@@ -1,18 +1,21 @@
+#include <unistd.h>
 #include "main.h"
 /**
- * main - Entry for main function
- * Description: Program to print _putchar, followed by a line
- * Return: 0
+ * main - This is the entry point
+ * this output the word _putchar
+ *
+ * Return: Always (0)
  */
 int main(void)
 {
-char c[9] = "_putchar";
-int i = 0;
-while (i < 8)
-{
-_putchar(c[i]);
-i++;
-}
-_putchar('\n');
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
